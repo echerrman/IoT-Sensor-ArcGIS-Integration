@@ -6,6 +6,10 @@ Real-time IoT sensor integration for temperature and humidity data from Arduino 
 Arduino IoT Sensor (DHT22) -> ArcGIS Enterprise Web Tool -> ArcGIS Online Feature Layer
 ```
 
+<p align="center">
+  <img src="images/Diagram.png" alt="Diagram of Data Pipeline" width="700">
+</p>
+
 ## Prerequisites
 
 - Python 3.8+
