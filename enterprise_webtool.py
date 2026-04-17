@@ -24,6 +24,10 @@ except Exception:  # pragma: no cover
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
+# -----------------------------------------------------------------------------
+# Minimal configuration.
+# Keep secrets out of git by editing these values only in your publish copy.
+# -----------------------------------------------------------------------------
 ARCGIS_REST_API_URL = "https://www.arcgis.com/sharing/rest/oauth2/token"
 FEATURE_LAYER_URL="https://services1.arcgis.com/x5wCko8UnSi4h0CB/arcgis/rest/services/Temperature_Readings_Layer/FeatureServer/0"
 OAUTH_CLIENT_ID = "CLIENT_ID"
